@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigo / Bhageecha - South Indian Traditional Clothing Label</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1e4;
+            color: #333;
+        }
+
+        header {
+            background-color: #e91e63;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffeb3b;
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .about, .featured, .gallery, .contact {
+            max-width: 800px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+        .about h2, .featured h2, .gallery h2, .contact h2 {
+            color: #e91e63;
+        }
+
+        .gallery img, .featured img {
+            width: 100%;
+            max-width: 300px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #e91e63;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Sigo / Bhageecha</h1>
+        <p>Embrace Tradition with Vibrance</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#featured">Featured Outfits</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Sigo / Bhageecha, a clothing label rooted in the rich cultural heritage of South India. We bring you
+            exquisite designs that blend traditional South Indian fabrics and motifs with a modern twist. Our mission is
+            to celebrate the vibrancy, colors, and elegance of South Indian attire, making it accessible to everyone who
+            cherishes authenticity and style.</p>
+    </section>
+
+    <!-- Featured Outfits Section -->
+    <section class="featured" id="featured">
+        <h2>Featured Outfits</h2>
+        <p>Discover some of our exclusive collections crafted with care and love for traditional art and textiles.</p>
+        <div>
+            <img src="featured1.jpg" alt="Featured Outfit 1">
+            <img src="featured2.jpg" alt="Featured Outfit 2">
+            <img src="featured3.jpg" alt="Featured Outfit 3">
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <p>Explore our gallery to see the vibrant colors, intricate designs, and luxurious fabrics that define Sigo /
+            Bhageecha.</p>
+        <div>
+            <img src="gallery1.jpg" alt="Gallery Image 1">
+            <img src="gallery2.jpg" alt="Gallery Image 2">
+            <img src="gallery3.jpg" alt="Gallery Image 3">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries, custom orders, or more information, reach out to us at:</p>
+        <p>Email: info@sigobhageecha.com</p>
+        <p>Phone: +91-123-456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sigo / Bhageecha. All rights reserved.</p>
+        <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+    </footer>
+
+</body>
+
+</html>
